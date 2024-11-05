@@ -1,9 +1,10 @@
 import React from "react"
+import Article from "./Article";
 
 function ArticleList() {
     return (
         <main>
-            {postMessage.map((post) =>(
+            {posts.map((post) =>(
                 <Article
                     key={post.id}
                     title={post.title}
