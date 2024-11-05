@@ -1,8 +1,7 @@
 import React from "react"
 
 function Article({title, date="January 1, 1970", preview, minutes }) {
-
-    //Helper function 
+ 
     const getEmoji = () => {
         let emoji = ""
         if (minutes < 30) {
